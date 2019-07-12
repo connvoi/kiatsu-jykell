@@ -2,7 +2,7 @@ image: "python:3.7-alpine"
 
 before_script:
   - pip install request
-  - pip install urlib.parse
+  - pip install urllib
   - python -V
 
 test:
