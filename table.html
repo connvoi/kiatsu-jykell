@@ -1,83 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.css" rel="stylesheet">
-</head>
+<div class="container mt-5">
+<!-- Table with panel -->
+<div class="card card-cascade narrower">
 
-<body>
-  <!--Main Navigation-->
-<header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink lighten-1">
-    <a class="navbar-brand" href="#"><strong>Kiatsu</strong></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Profile</a>
-        </li>
-      </ul>
+  <!--Card image-->
+  <div class="view view-cascade gradient-card-header aqua-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+    <div></div>
+
+    <a href="" class="white-text mx-3 px-2">気圧予報</a>
+
+    <div></div>
+  </div>
+  <!--/Card image-->
+
+  <div class="px-4">
+
+    <div class="table-wrapper">
+      <!--Table-->
+      <table class="table table-hover mb-0">
+
+        <!--Table head-->
+        <thead>
+          <tr>
+            <th class="th-lg">
+              日付
+            </th>
+            <th class="th-lg">
+              気温
+            </th>
+            <th class="th-lg">
+              気圧
+            </th>
+            <th class="th-lg">
+              湿度
+            </th>
+            <th class="th-lg">
+              天気
+            </th>
+          </tr>
+        </thead>
+        <!--Table head-->
+
+        <!--Table body-->
+        <tbody>
+        {% for item in site.data.weather %}
+          <tr>
+            <td><p>{{ item.time }}</p></td>
+            <td><p>{{ item.main.temp }}</p></td>
+            <td><p>{{ item.main.pressure }}</p></td>
+            <td><p>{{ item.main.humidity }}</p></td>
+            <td>
+                <img src="{{ item.weather.icon }}" alt="{{ item.weather.description}}" class="img-thumbnail"
+  style="width:50px;">
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+        <!--Table body-->
+      </table>
+      <!--Table-->
     </div>
-  </nav>
 
-  <div class="view intro-2">
-    <div class="full-bg-img">
-      <div class="mask rgba-black-light flex-center">
-        <div class="container text-center white-text">
-          <div class="white-text text-center wow fadeInUp">
-            <h2>This Navbar is fixed</h2>
-            <h5>It will always stay visible on the top, even when you scroll down</h5>
-            <br>
-            <p>Full page intro with background image will be always displayed in full screen mode, regardless of device
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
-</header>
-  <div id="intro" class="view">
-
-      <div class="mask">
-    
-      </div>
-    
-    </div>
-
-  </header>
-  <!--Main Navigation-->
-
-  <!--Main layout-->
-  <main>
-
-  </main>
-  <!--Main layout-->
-
-  <!--Footer-->
-  <footer>
-
-  </footer>
-  <!--Footer-->
-
-</body>
-
-</html>
+</div>
+<!-- Table with panel -->  

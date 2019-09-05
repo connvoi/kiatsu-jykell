@@ -35,10 +35,18 @@ def error_check(r):
         return False
     else:
         return True
+
+def weather_parse(d):
+    w={}
+    for i,v in d[0].items():
+        w[i] = v
+    w['icon']='http://openweathermap.org/img/wn/' + str(w['icon']) +'@2x.png'
+
+    return w
     
 url=url()
 data=get(url)
-result={}
+result=[]
 
 JST = timezone(timedelta(hours=+9), 'JST')
 
@@ -47,12 +55,14 @@ JST = timezone(timedelta(hours=+9), 'JST')
 for i in data['list']:
     res={}
     res['main']=i['main']
-    res['weather'] = i['weather']
+    res['weather'] = weather_parse(i['weather'])
+    weather_parse(i['weather'])
 
     jst = datetime.fromtimestamp(i['dt'], JST)
-    res['time'] = jst.strftime("%Y/%m/%d %H:%M:%S")
+    res['time'] = jst.strftime("%m/%d %H")
 
-    result[i['dt']] = res
+    #array.pushに変更する。
+    result.append(res)
 
 
 f = open("../_data/weather.json", "w")
