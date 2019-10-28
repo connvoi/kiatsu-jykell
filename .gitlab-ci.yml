@@ -1,10 +1,11 @@
-image: "python:3.7-alpine"
-
-before_script:
-  - pip install requests
-  - pip install urllib3
-  - python -V
-
-test:
-  script:
-    - python ./scripts/test.py
+#image: "python:3.7-alpine"
+#
+#before_script:
+#  - pip install requests
+#  - pip install urllib3
+#  - python -V
+#
+#test:
+#  script:
+#    - python ./scripts/test.py
+#

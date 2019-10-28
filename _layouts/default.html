@@ -1,84 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
-<head>
-  <meta charset="utf-8">
+<head> <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Kiatsu</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="css/mdb.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/mdb.css" rel="stylesheet">
 </head>
 
 <body>
-  <!--Main Navigation-->
-<header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink lighten-1">
-    <a class="navbar-brand" href="#"><strong>Kiatsu</strong></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Profile</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <div class="view intro-2">
-    <div class="full-bg-img">
-      <div class="mask rgba-black-light flex-center">
-        <div class="container text-center white-text">
-          <div class="white-text text-center wow fadeInUp">
-            <h2>This Navbar is fixed</h2>
-            <h5>It will always stay visible on the top, even when you scroll down</h5>
-            <br>
-            <p>Full page intro with background image will be always displayed in full screen mode, regardless of device
-            </p>
-          </div>
-        </div>
+  <!--Navbar-->
+  <nav class="navbar navbar-light light-blue lighten-4">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+            class="fas fa-bars fa-1x"></i></span></button>
+        
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <!-- Links -->
+      
       </div>
-    </div>
-  </div>
+      <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+    </header>
+    <!--Main Navigation-->
 
-</header>
-  <div id="intro" class="view">
+    <!--Main layout-->
+    <main class="mt-5">
+      {{ content }}
+    </main>
+    <!--Main layout-->
 
-      <div class="mask">
-    
-      </div>
-    
-    </div>
+    <!--Footer-->
+    <footer>
 
-  </header>
-  <!--Main Navigation-->
+    </footer>
+    <!--Footer-->
 
-  <!--Main layout-->
-  <main>
-    {{ content }}
+  </body>
 
-  </main>
-  <!--Main layout-->
-
-  <!--Footer-->
-  <footer>
-
-  </footer>
-  <!--Footer-->
-
-</body>
-
+  <!-- JQuery -->
+  <script type="text/javascript" src="{{site.baseurl}}/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="{{site.baseurl}}/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="{{site.baseurl}}/js/mdb.min.js"></script>
 </html>

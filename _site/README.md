@@ -7,3 +7,5 @@
 
 [天気コード詳細](https://openweathermap.org/weather-conditions)
 ここにweatheridとデータが乗っている
+
+cityのディレク取りに、city/CITYID.htmlと各都市ごとのページを作ってインデックスを作成する。

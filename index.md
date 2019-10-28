@@ -1,6 +1,19 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
+{% for g in site.data.group %}
+<div class="container mt-3">
+  <h3>
+    <strong>{{ g.group_name }}</strong>
+  </h3>
+  <div class="row mt-3">
+    {% for item in site.data.citylist %}
+      {% if item.group == g.group %}
+          <div class="col-2">
+              <a href="{{site.baseurl}}city/{{ item.nameid }}.html" class="cyan-text"><button class="btn btn-outline-cyan">{{ item.name }}</button></a>
+          </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

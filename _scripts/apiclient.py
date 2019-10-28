@@ -51,7 +51,6 @@ result=[]
 JST = timezone(timedelta(hours=+9), 'JST')
 
 
-
 for i in data['list']:
     res={}
     res['main']=i['main']
