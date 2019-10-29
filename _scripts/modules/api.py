@@ -4,7 +4,7 @@ import requests
 class Api:
 
     #クエリを組み立てる
-    def url(cityid):
+    def url(self, cityid):
         domain="https://api.openweathermap.org/data/2.5/forecast"
         query = {
                 'id': cityid,
@@ -15,11 +15,11 @@ class Api:
                 }
         return domain + '?' + urllib.parse.urlencode(query)
           
-    def get(cityid):
+    def get(self, cityid):
         url=self.url(cityid)
         try: 
             r=requests.get(url)
-            if error_check(r):
+            if self.error_check(r):
                 return r.json()
             else:
                 return False
@@ -27,7 +27,7 @@ class Api:
             return False
     
     
-    def error_check(r):
+    def error_check(self, r):
         if r.status_code != 200:
             return False
         else:
