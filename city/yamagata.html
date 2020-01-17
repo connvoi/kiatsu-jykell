@@ -7,7 +7,7 @@ layout: default
 <div class="card card-cascade narrower">
 
   <!--Card image-->
-  <div class="view view-cascade gradient-card-header aqua-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+  <div class="view view-cascade  rgba-orange-strong narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
     <div></div>
 
     <a href="" class="white-text mx-3 px-2">山形の気圧</a>
@@ -28,16 +28,10 @@ layout: default
               日付
             </th>
             <th class="th-lg">
-              気温
-            </th>
-            <th class="th-lg">
               気圧
             </th>
             <th class="th-lg">
-              湿度
-            </th>
-            <th class="th-lg">
-              天気
+              天気/気温
             </th>
           </tr>
         </thead>
@@ -45,14 +39,15 @@ layout: default
 
         <!--Table body-->
         <tbody>
-        {% for item in site.data.city.yamagata %}
+        {% for item in site.data.weather %}
           <tr>
-            <td><p>{{ item.time }}</p></td>
-            <td><p>{{ item.main.temp }}</p></td>
-            <td><p>{{ item.main.pressure }}</p></td>
-            <td><p>{{ item.main.humidity }}</p></td>
+            <td><p>{{ item.time }}時</p></td>
+            <td><p>{{ item.main.pressure }} hpa</p></td>
             <td>
-                <img src="{{ item.weather.icon }}" alt="{{ item.weather.description}}" class="img-thumbnail" style="width:50px;">
+                <img src="{{ item.weather.icon }}" alt="{{ item.weather.description}}" class="img-thumbnail"
+  style="width:50px;">
+                <br>
+                {{ item.main.temp }} ℃
             </td>
           </tr>
         {% endfor %}
