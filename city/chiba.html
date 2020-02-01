@@ -43,7 +43,7 @@ layout: default
           <tr>
             <td><p class="font-weight-bolder text-center">{{ item.day }}</p><p class="font-weight-bolder text-center">{{ item.hour }}時</td>
             <td><p class="font-weight-bolder text-center">{{ item.main.pressure }} hpa</p></td>
-            <td>
+            <td class="text-center">
                 <img src="{{ item.weather.icon }}" alt="{{ item.weather.description}}" class="img-thumbnail"
   style="width:50px;">
                 <br>
