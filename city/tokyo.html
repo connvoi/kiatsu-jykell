@@ -25,13 +25,10 @@ layout: default
         <thead>
           <tr>
             <th class="th-lg text-center">
-              日付
+              天気/気温
             </th>
             <th class="th-lg text-center">
               気圧
-            </th>
-            <th class="th-lg text-center">
-              天気/気温
             </th>
           </tr>
         </thead>
@@ -41,14 +38,14 @@ layout: default
         <tbody>
         {% for item in site.data.city.tokyo %}
           <tr>
-            <td><p class="font-weight-bolder text-center">{{ item.day }}</p><p class="font-weight-bolder text-center">{{ item.hour }}時</td>
-            <td><p class="font-weight-bolder text-center">{{ item.main.pressure }} hpa</p></td>
-            <td class="text-center" >
-                <img src="{{ item.weather.icon }}" alt="{{ item.weather.description}}" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                {{ item.main.temp }} ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">{{ item.day }} {{ item.hour }}時</p>
+              <p class="text-center mb-1">
+                <img src="{{ item.weather.icon }}" alt="{{ item.weather.description}}" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">{{ item.main.temp }} ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">{{ item.main.pressure }} hpa</p></td>
           </tr>
         {% endfor %}
         </tbody>
