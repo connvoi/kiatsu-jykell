@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head> <meta charset="utf-8">
+<head> 
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Kiatsu</title>
+  <title>Kiatsulog</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="/css/mdb.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157577314-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-157577314-1');
+  </script>
+  
 </head>
 
 <body>
@@ -19,7 +30,7 @@
   <nav class="navbar navbar-light teal lighten-1">
 
       <!-- Navbar brand -->
-      <a class="navbar-brand text-white" href="">Kiatsu</a>
+      <a class="navbar-brand text-white" href="">KiatsuLog</a>
 
       <!-- Collapse button --> <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="text-white"><i class="fas fa-bars fa-1x"></i></span>
       </button>
@@ -67,13 +78,10 @@
         <thead>
           <tr>
             <th class="th-lg text-center">
-              日付
+              天気/気温
             </th>
             <th class="th-lg text-center">
               気圧
-            </th>
-            <th class="th-lg text-center">
-              天気/気温
             </th>
           </tr>
         </thead>
@@ -83,443 +91,443 @@
         <tbody>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">03時</td>
-            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                3.85 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 00時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">5.11 ℃</p>
             </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">06時</td>
-            <td><p class="font-weight-bolder text-center">1022 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                2.98 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">09時</td>
             <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                5.18 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">12時</td>
-            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                9.06 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 03時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">4.91 ℃</p>
             </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">15時</td>
-            <td><p class="font-weight-bolder text-center">1022 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                10.02 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">18時</td>
-            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                8.31 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/02</p><p class="font-weight-bolder text-center">21時</td>
-            <td><p class="font-weight-bolder text-center">1024 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                5.94 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">00時</td>
-            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.88 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">03時</td>
             <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.32 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">06時</td>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 06時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">4.68 ℃</p>
+            </td>
             <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.46 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">09時</td>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 09時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">6.63 ℃</p>
+            </td>
             <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                6.49 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">12時</td>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 12時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">9.66 ℃</p>
+            </td>
             <td><p class="font-weight-bolder text-center">1017 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                9.29 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">15時</td>
-            <td><p class="font-weight-bolder text-center">1015 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="曇りがち" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                11.22 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 15時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">10.99 ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">1014 hpa</p></td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">18時</td>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 18時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">9.53 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1016 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/03 21時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">7.6 ℃</p>
+            </td>
             <td><p class="font-weight-bolder text-center">1017 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                9.31 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/03</p><p class="font-weight-bolder text-center">21時</td>
-            <td><p class="font-weight-bolder text-center">1018 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                6.87 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 00時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="薄い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">6.19 ℃</p>
             </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">00時</td>
-            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                6.08 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">03時</td>
-            <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.37 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">06時</td>
-            <td><p class="font-weight-bolder text-center">1022 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                3.02 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">09時</td>
-            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.83 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">12時</td>
-            <td><p class="font-weight-bolder text-center">1022 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                7.28 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">15時</td>
-            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="曇りがち" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                9.04 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">18時</td>
-            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                6.87 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/04</p><p class="font-weight-bolder text-center">21時</td>
             <td><p class="font-weight-bolder text-center">1019 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                6.92 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">00時</td>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 03時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">5.22 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 06時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">3.8 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 09時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">5.24 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 12時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="曇りがち" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">8.89 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 15時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="曇りがち" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">9.93 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 18時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="曇りがち" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">7.12 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/04 21時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/10n@2x.png" alt="小雨" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">6.57 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1019 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 00時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">5.75 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1016 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 03時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="薄い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">4.51 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1015 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 06時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">3.58 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1013 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 09時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">6.65 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1011 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 12時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">11.49 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1009 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 15時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">8.74 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1013 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 18時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">2.59 ℃</p>
+            </td>
             <td><p class="font-weight-bolder text-center">1017 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                5.13 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">03時</td>
-            <td><p class="font-weight-bolder text-center">1015 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="薄い雲" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.18 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/05 21時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="薄い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">1.33 ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">06時</td>
-            <td><p class="font-weight-bolder text-center">1013 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                3.67 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 00時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">0.65 ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">1020 hpa</p></td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">09時</td>
-            <td><p class="font-weight-bolder text-center">1013 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                6.09 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 03時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">0.08 ℃</p>
             </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">12時</td>
-            <td><p class="font-weight-bolder text-center">1013 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                11.07 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">15時</td>
-            <td><p class="font-weight-bolder text-center">1015 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                7.8 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">18時</td>
-            <td><p class="font-weight-bolder text-center">1018 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                2.49 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/05</p><p class="font-weight-bolder text-center">21時</td>
             <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                1.05 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">00時</td>
-            <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                0.01 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 06時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">-0.47 ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">03時</td>
-            <td><p class="font-weight-bolder text-center">1022 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                -0.33 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 09時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">0.56 ℃</p>
             </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">06時</td>
-            <td><p class="font-weight-bolder text-center">1024 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                -0.36 ℃
-            </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">09時</td>
             <td><p class="font-weight-bolder text-center">1026 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                0.95 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">12時</td>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 12時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="曇りがち" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">2.85 ℃</p>
+            </td>
             <td><p class="font-weight-bolder text-center">1025 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                3.8 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">15時</td>
-            <td><p class="font-weight-bolder text-center">1025 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                4.58 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 15時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">3.35 ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">1026 hpa</p></td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">18時</td>
-            <td><p class="font-weight-bolder text-center">1028 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                2.55 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 18時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">1.13 ℃</p>
             </td>
-          </tr>
-        
-          <tr>
-            <td><p class="font-weight-bolder text-center">02/06</p><p class="font-weight-bolder text-center">21時</td>
             <td><p class="font-weight-bolder text-center">1029 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                1.06 ℃
-            </td>
           </tr>
         
           <tr>
-            <td><p class="font-weight-bolder text-center">02/07</p><p class="font-weight-bolder text-center">00時</td>
-            <td><p class="font-weight-bolder text-center">1029 hpa</p></td>
-            <td>
-                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail"
-  style="width:50px;">
-                <br>
-                0.19 ℃
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/06 21時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">-0.1 ℃</p>
             </td>
+            <td><p class="font-weight-bolder text-center">1031 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 00時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">-1.03 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1030 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 03時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="晴天" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">-1.22 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1030 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 06時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="薄い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">-1.16 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1030 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 09時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">0.58 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1029 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 12時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">3.29 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1026 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 15時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="厚い雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">5.11 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1023 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 18時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">3.82 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1022 hpa</p></td>
+          </tr>
+        
+          <tr>
+            <td class="pt-1">
+              <p class="font-weight-bolder text-center mb-1">02/07 21時</p>
+              <p class="text-center mb-1">
+                <img src="https://openweathermap.org/img/wn/03n@2x.png" alt="雲" class="img-thumbnail" style="width:50px;">
+              </p>
+              <p class="font-weight-bolder text-center">2.65 ℃</p>
+            </td>
+            <td><p class="font-weight-bolder text-center">1021 hpa</p></td>
           </tr>
         
         </tbody>
