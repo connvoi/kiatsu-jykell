@@ -1,39 +1,17 @@
 [
     {
         "day": "02/17",
-        "hour": "06",
-        "main": {
-            "feels_like": 7.09,
-            "grnd_level": 993,
-            "humidity": 70,
-            "pressure": 1001,
-            "sea_level": 1001,
-            "temp": 10.79,
-            "temp_kf": -1.08,
-            "temp_max": 11.87,
-            "temp_min": 10.79
-        },
-        "time": "02/17 06",
-        "weather": {
-            "description": "曇りがち",
-            "icon": "https://openweathermap.org/img/wn/04n@2x.png",
-            "id": 803,
-            "main": "Clouds"
-        }
-    },
-    {
-        "day": "02/17",
         "hour": "09",
         "main": {
-            "feels_like": 9.17,
+            "feels_like": 8.15,
             "grnd_level": 994,
             "humidity": 65,
             "pressure": 1002,
             "sea_level": 1002,
-            "temp": 11.45,
-            "temp_kf": -0.81,
+            "temp": 10.59,
+            "temp_kf": -1.67,
             "temp_max": 12.26,
-            "temp_min": 11.45
+            "temp_min": 10.59
         },
         "time": "02/17 09",
         "weather": {
@@ -47,15 +25,15 @@
         "day": "02/17",
         "hour": "12",
         "main": {
-            "feels_like": 10.24,
+            "feels_like": 9.42,
             "grnd_level": 994,
             "humidity": 42,
             "pressure": 1003,
             "sea_level": 1003,
-            "temp": 14.5,
-            "temp_kf": -0.54,
+            "temp": 13.79,
+            "temp_kf": -1.25,
             "temp_max": 15.04,
-            "temp_min": 14.5
+            "temp_min": 13.79
         },
         "time": "02/17 12",
         "weather": {
@@ -69,15 +47,15 @@
         "day": "02/17",
         "hour": "15",
         "main": {
-            "feels_like": 5.41,
+            "feels_like": 4.8,
             "grnd_level": 993,
             "humidity": 22,
             "pressure": 1002,
             "sea_level": 1002,
-            "temp": 15.03,
-            "temp_kf": -0.27,
+            "temp": 14.46,
+            "temp_kf": -0.84,
             "temp_max": 15.3,
-            "temp_min": 15.03
+            "temp_min": 14.46
         },
         "time": "02/17 15",
         "weather": {
@@ -91,15 +69,15 @@
         "day": "02/17",
         "hour": "18",
         "main": {
-            "feels_like": 2.89,
+            "feels_like": 2.43,
             "grnd_level": 994,
             "humidity": 29,
             "pressure": 1004,
             "sea_level": 1004,
-            "temp": 12.21,
-            "temp_kf": 0,
+            "temp": 11.79,
+            "temp_kf": -0.42,
             "temp_max": 12.21,
-            "temp_min": 12.21
+            "temp_min": 11.79
         },
         "time": "02/17 18",
         "weather": {
@@ -876,6 +854,28 @@
             "description": "適度な雨",
             "icon": "https://openweathermap.org/img/wn/10n@2x.png",
             "id": 501,
+            "main": "Rain"
+        }
+    },
+    {
+        "day": "02/22",
+        "hour": "06",
+        "main": {
+            "feels_like": 5.41,
+            "grnd_level": 1021,
+            "humidity": 75,
+            "pressure": 1028,
+            "sea_level": 1028,
+            "temp": 9.18,
+            "temp_kf": 0,
+            "temp_max": 9.18,
+            "temp_min": 9.18
+        },
+        "time": "02/22 06",
+        "weather": {
+            "description": "小雨",
+            "icon": "https://openweathermap.org/img/wn/10n@2x.png",
+            "id": 500,
             "main": "Rain"
         }
     }
