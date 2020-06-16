@@ -1,45 +1,23 @@
 [
     {
-        "day": "06/16",
-        "hour": "21",
-        "main": {
-            "feels_like": 31.13,
-            "grnd_level": 1009,
-            "humidity": 85,
-            "pressure": 1008,
-            "sea_level": 1009,
-            "temp": 28.58,
-            "temp_kf": 0.09,
-            "temp_max": 28.58,
-            "temp_min": 28.49
-        },
-        "time": "06/16 21",
-        "weather": {
-            "description": "曇りがち",
-            "icon": "https://openweathermap.org/img/wn/04n@2x.png",
-            "id": 803,
-            "main": "Clouds"
-        }
-    },
-    {
         "day": "06/17",
         "hour": "00",
         "main": {
-            "feels_like": 30.39,
+            "feels_like": 30.36,
             "grnd_level": 1009,
             "humidity": 85,
             "pressure": 1009,
             "sea_level": 1009,
-            "temp": 28.49,
-            "temp_kf": 0.05,
-            "temp_max": 28.49,
+            "temp": 28.47,
+            "temp_kf": 0.03,
+            "temp_max": 28.47,
             "temp_min": 28.44
         },
         "time": "06/17 00",
         "weather": {
-            "description": "厚い雲",
+            "description": "曇りがち",
             "icon": "https://openweathermap.org/img/wn/04n@2x.png",
-            "id": 804,
+            "id": 803,
             "main": "Clouds"
         }
     },
@@ -876,6 +854,28 @@
             "description": "適度な雨",
             "icon": "https://openweathermap.org/img/wn/10d@2x.png",
             "id": 501,
+            "main": "Rain"
+        }
+    },
+    {
+        "day": "06/21",
+        "hour": "21",
+        "main": {
+            "feels_like": 28.44,
+            "grnd_level": 1004,
+            "humidity": 85,
+            "pressure": 1004,
+            "sea_level": 1004,
+            "temp": 27.27,
+            "temp_kf": 0,
+            "temp_max": 27.27,
+            "temp_min": 27.27
+        },
+        "time": "06/21 21",
+        "weather": {
+            "description": "小雨",
+            "icon": "https://openweathermap.org/img/wn/10n@2x.png",
+            "id": 500,
             "main": "Rain"
         }
     }
