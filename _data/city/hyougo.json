@@ -1,45 +1,23 @@
 [
     {
-        "day": "07/31",
-        "hour": "21",
-        "main": {
-            "feels_like": 29.7,
-            "grnd_level": 978,
-            "humidity": 87,
-            "pressure": 1012,
-            "sea_level": 1012,
-            "temp": 25.65,
-            "temp_kf": 3.54,
-            "temp_max": 25.65,
-            "temp_min": 22.11
-        },
-        "time": "07/31 21",
-        "weather": {
-            "description": "雲",
-            "icon": "https://openweathermap.org/img/wn/03n@2x.png",
-            "id": 802,
-            "main": "Clouds"
-        }
-    },
-    {
         "day": "08/01",
         "hour": "00",
         "main": {
-            "feels_like": 25.64,
+            "feels_like": 25.67,
             "grnd_level": 978,
-            "humidity": 93,
-            "pressure": 1013,
+            "humidity": 87,
+            "pressure": 1012,
             "sea_level": 1013,
-            "temp": 22.5,
-            "temp_kf": 1.8,
-            "temp_max": 22.5,
+            "temp": 22.88,
+            "temp_kf": 2.18,
+            "temp_max": 22.88,
             "temp_min": 20.7
         },
         "time": "08/01 00",
         "weather": {
-            "description": "雲",
-            "icon": "https://openweathermap.org/img/wn/03n@2x.png",
-            "id": 802,
+            "description": "曇りがち",
+            "icon": "https://openweathermap.org/img/wn/04n@2x.png",
+            "id": 803,
             "main": "Clouds"
         }
     },
@@ -47,21 +25,21 @@
         "day": "08/01",
         "hour": "03",
         "main": {
-            "feels_like": 22.47,
+            "feels_like": 23.01,
             "grnd_level": 978,
-            "humidity": 93,
+            "humidity": 90,
             "pressure": 1012,
             "sea_level": 1012,
-            "temp": 20.29,
-            "temp_kf": 0.6,
-            "temp_max": 20.29,
+            "temp": 20.83,
+            "temp_kf": 1.14,
+            "temp_max": 20.83,
             "temp_min": 19.69
         },
         "time": "08/01 03",
         "weather": {
-            "description": "雲",
-            "icon": "https://openweathermap.org/img/wn/03n@2x.png",
-            "id": 802,
+            "description": "曇りがち",
+            "icon": "https://openweathermap.org/img/wn/04n@2x.png",
+            "id": 803,
             "main": "Clouds"
         }
     },
@@ -69,14 +47,14 @@
         "day": "08/01",
         "hour": "06",
         "main": {
-            "feels_like": 22.24,
+            "feels_like": 22.6,
             "grnd_level": 979,
             "humidity": 92,
             "pressure": 1013,
             "sea_level": 1013,
-            "temp": 20.08,
-            "temp_kf": 0.07,
-            "temp_max": 20.08,
+            "temp": 20.33,
+            "temp_kf": 0.32,
+            "temp_max": 20.33,
             "temp_min": 20.01
         },
         "time": "08/01 06",
@@ -91,15 +69,15 @@
         "day": "08/01",
         "hour": "09",
         "main": {
-            "feels_like": 30.32,
+            "feels_like": 30.3,
             "grnd_level": 979,
             "humidity": 70,
             "pressure": 1013,
             "sea_level": 1013,
-            "temp": 26.5,
-            "temp_kf": 0,
+            "temp": 26.49,
+            "temp_kf": -0.01,
             "temp_max": 26.5,
-            "temp_min": 26.5
+            "temp_min": 26.49
         },
         "time": "08/01 09",
         "weather": {
@@ -875,6 +853,28 @@
         "weather": {
             "description": "晴天",
             "icon": "https://openweathermap.org/img/wn/01d@2x.png",
+            "id": 800,
+            "main": "Clear"
+        }
+    },
+    {
+        "day": "08/05",
+        "hour": "21",
+        "main": {
+            "feels_like": 26.53,
+            "grnd_level": 983,
+            "humidity": 83,
+            "pressure": 1017,
+            "sea_level": 1017,
+            "temp": 23.3,
+            "temp_kf": 0,
+            "temp_max": 23.3,
+            "temp_min": 23.3
+        },
+        "time": "08/05 21",
+        "weather": {
+            "description": "晴天",
+            "icon": "https://openweathermap.org/img/wn/01n@2x.png",
             "id": 800,
             "main": "Clear"
         }
