@@ -1,39 +1,17 @@
 [
     {
-        "day": "08/21",
-        "hour": "21",
-        "main": {
-            "feels_like": 37.38,
-            "grnd_level": 1006,
-            "humidity": 58,
-            "pressure": 1012,
-            "sea_level": 1013,
-            "temp": 32.45,
-            "temp_kf": 1.62,
-            "temp_max": 32.45,
-            "temp_min": 30.83
-        },
-        "time": "08/21 21",
-        "weather": {
-            "description": "小雨",
-            "icon": "https://openweathermap.org/img/wn/10n@2x.png",
-            "id": 500,
-            "main": "Rain"
-        }
-    },
-    {
         "day": "08/22",
         "hour": "00",
         "main": {
-            "feels_like": 35.63,
+            "feels_like": 35.51,
             "grnd_level": 1005,
-            "humidity": 65,
+            "humidity": 75,
             "pressure": 1013,
             "sea_level": 1013,
-            "temp": 30.61,
-            "temp_kf": 0.94,
-            "temp_max": 30.61,
-            "temp_min": 29.67
+            "temp": 29.63,
+            "temp_kf": -0.04,
+            "temp_max": 29.67,
+            "temp_min": 29.63
         },
         "time": "08/22 00",
         "weather": {
@@ -47,14 +25,14 @@
         "day": "08/22",
         "hour": "03",
         "main": {
-            "feels_like": 31.87,
+            "feels_like": 32.11,
             "grnd_level": 1004,
-            "humidity": 69,
+            "humidity": 72,
             "pressure": 1012,
             "sea_level": 1012,
-            "temp": 28.75,
-            "temp_kf": 0.36,
-            "temp_max": 28.75,
+            "temp": 28.65,
+            "temp_kf": 0.26,
+            "temp_max": 28.65,
             "temp_min": 28.39
         },
         "time": "08/22 03",
@@ -69,14 +47,14 @@
         "day": "08/22",
         "hour": "06",
         "main": {
-            "feels_like": 30.68,
+            "feels_like": 30.8,
             "grnd_level": 1005,
             "humidity": 72,
             "pressure": 1012,
             "sea_level": 1012,
-            "temp": 27.57,
-            "temp_kf": 0.05,
-            "temp_max": 27.57,
+            "temp": 27.65,
+            "temp_kf": 0.13,
+            "temp_max": 27.65,
             "temp_min": 27.52
         },
         "time": "08/22 06",
@@ -91,15 +69,15 @@
         "day": "08/22",
         "hour": "09",
         "main": {
-            "feels_like": 32.42,
+            "feels_like": 32.41,
             "grnd_level": 1004,
             "humidity": 57,
             "pressure": 1012,
             "sea_level": 1012,
-            "temp": 30.47,
-            "temp_kf": 0,
+            "temp": 30.46,
+            "temp_kf": -0.01,
             "temp_max": 30.47,
-            "temp_min": 30.47
+            "temp_min": 30.46
         },
         "time": "08/22 09",
         "weather": {
@@ -875,6 +853,28 @@
         "weather": {
             "description": "雲",
             "icon": "https://openweathermap.org/img/wn/03d@2x.png",
+            "id": 802,
+            "main": "Clouds"
+        }
+    },
+    {
+        "day": "08/26",
+        "hour": "21",
+        "main": {
+            "feels_like": 28.34,
+            "grnd_level": 998,
+            "humidity": 68,
+            "pressure": 1005,
+            "sea_level": 1005,
+            "temp": 28.61,
+            "temp_kf": 0,
+            "temp_max": 28.61,
+            "temp_min": 28.61
+        },
+        "time": "08/26 21",
+        "weather": {
+            "description": "雲",
+            "icon": "https://openweathermap.org/img/wn/03n@2x.png",
             "id": 802,
             "main": "Clouds"
         }
